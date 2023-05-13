@@ -1,4 +1,4 @@
-# Spring Boot 3 REST
+# Spring Boot 3 REST API
 
 Simple overview how to create REST API in Spring Boot 3 and how to use Java record type
 
