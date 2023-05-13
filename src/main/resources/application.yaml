@@ -1,0 +1,19 @@
+server:
+  port: 8087
+
+spring:
+  main:
+    web-application-type: SERVLET
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sb3
+    username: username
+    password: *******
+  jpa:
+    hibernate:
+      ddl-auto: 'create'
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+
